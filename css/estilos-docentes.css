@@ -1,0 +1,27 @@
+.radius-docente{
+    border-radius: 50%;
+}
+
+.estilo-card{
+    background-color: #fff;
+    margin-top: -50px;
+}
+.col-md-4{
+    margin-top: -60px;
+}
+.sombra-card{
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 8px 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 1px 8px 0 rgb(0 0 0 / 15%);
+    padding: 16px;
+    width: 400px;
+    margin-left: 40px;
+}
+
+.col-md-9{
+  
+    margin-left: 200px;
+    width: 500px;
+    margin-top: -3600px;
+    
+}

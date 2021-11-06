@@ -1,0 +1,57 @@
+<div style="margin-top: 50px;" class="col-md-6 offset-md-3">
+    <div class="intro">
+      <h1 style="font-size: 32px; text-align: center;" class="texto-intro" >
+        Usuarios Premiun del mes
+      </h1>
+      
+    </div>
+  </div>
+
+<section class="padded fondos m-5">
+    <div class="container">
+      <div class="mb-3">
+          <button class="btn btn-primary boton-crud" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-nuevo-usuario" aria-expanded="false" aria-controls="collapseExample">
+            Añadir nuevos usuarios
+          </button>
+      </div>
+      <div id="collapse-nuevo-usuario" class="collapse">
+        <div class="mb-3">
+          <input type="text" class="form-control" id="txtNombre" placeholder="Nombre y apellido">
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" id="txtCurso" placeholder="Curso">
+        </div>
+
+        <div class="mb-3">
+          <button class="btn btn-primary boton-crud" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-nuevo-usuario" aria-expanded="false" aria-controls="collapseExample">
+            Guardar
+          </button>
+          <button class="btn btn-secondary boton-crud" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-nuevo-usuario" aria-expanded="false" aria-controls="collapseExample">
+            Cancelar
+          </button>
+        </div>
+
+      </div>
+             <table class="table">
+                 <thead>
+                     <tr>
+                          <th>Código</th>
+                          <th>Nombre y apellido</th>
+                          <th>Curso</th>
+                    
+                       
+                     </tr>
+                 </thead>
+     <tbody id="tbody-premium">
+            
+     </tbody>
+
+   </table>                    
+
+    </div>
+</section>
+<script>
+
+    $.getScript("componentes/premium.js");
+
+</script>

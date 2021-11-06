@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
+
+.registro{
+    width: 100%;
+    max-width: 400px;
+    margin-left: 100px;
+    margin-right: 60px;
+    background-color: rgb(255, 255, 255);
+    padding:40px;
+    border: 2px solid rgb(219, 221, 220);
+    margin-top: 20px;
+    margin-bottom: 90px;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    
+    box-shadow: 0px 1px 12px 5px rgba(14,232,233,0.58);
+    border-radius: 1rem;
+    
+}
+.registro h1{
+    text-align: center;
+    font-size: 23px;
+    padding: 20px;
+    padding-bottom: 35px;
+    font-weight: 600;
+    margin-top: -30px;
+    font-family: 'Poppins', sans-serif;
+    color: #1a2537;
+}
+.registro .entrada{
+    margin-bottom: 23px;
+    border:1px solid #aaa;
+    font-family: 'Poppins', sans-serif;
+    border-radius:10px;
+    
+    
+}
+.registro .entrada input{
+    font-size: 16px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.registro  .recordar{
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    margin-top: -10px;
+    font-size: 15px;
+    
+
+    font-family: 'Poppins', sans-serif;
+    color: rgb(66, 66, 64);
+    
+   
+   
+}
+.registro  .olvidar{
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    color: #13315f;
+    font-family: 'Poppins', sans-serif;
+}
+.registro .olvidar:hover{
+    color: rgb(61, 94, 201);
+    
+}
+
+
+.registro p .enlace:hover{
+    color: cadetblue;
+}
+.registro .boton{
+    background-color: #1b417a;
+    color: #fff;
+    width: 60%;
+    font-size: 18px;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    font-family:'Poppins',sans-serif;
+     
+}
+.registro .boton:hover{
+    background-color: rgba(12, 128, 163, 0.932);
+}
+.registro .entrada .icono{
+    width: 50px;
+    text-align: center;
+    color: #999;
+    padding-left: 10px;
+    background-color:#fff;
+}
+
+.botonSesion{
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+}
+   
+/* REGISTRO 2 */
+ 
+.registro2{
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding:40px;
+    border: 2px solid rgb(219, 221, 220);
+    margin-top: 20px;
+    margin-bottom: 90px;
+    border-radius: 6px;  
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 1px 12px 5px rgba(14,232,233,0.58);
+    border-radius: 1rem;
+}
+.registro2 h1{
+    text-align: center;
+    font-size: 23px;
+    padding: 20px;
+    padding-bottom: 35px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    margin-top: -30px;
+
+    color: #1a2537;
+}
+.registro2 p{
+    font-family: 'poppins',sans-serif;
+    color: rgb(48, 48, 44);
+    text-align: center;
+    font-size: 15px;
+}
+
+.registro2 .boton{
+    background-color: #1b417a;
+    color: #fff;
+    width: 60%;
+    font-size: 18px;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 75px;
+    outline: none;
+    
+}
+.registro2 .boton:hover{
+    background-color: rgba(12, 128, 163, 0.932);
+}
+.formulario-go{
+    
+    display: flex;
+}

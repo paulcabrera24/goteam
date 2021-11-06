@@ -1,0 +1,42 @@
+[
+    {
+        "nombre": "Jose",
+        "Apellido": "carrion",
+        "Nacionalidad":"Peruano"
+         
+    },
+    {
+        "nombre": "Juan",
+        "Apellido": "Gonzales",
+        "Nacionalidad":"Venezolano"
+    },
+    {
+        "nombre": "Tiburcio",
+        "Apellido": "Dias",
+        "Nacionalidad":"Colombiano"
+    },
+    {
+        "nombre": "Jesus",
+        "Apellido": "Lujan",
+        "Nacionalidad":"Peruano"
+         
+    },
+    {
+        "nombre": "Keiko",
+        "Apellido": "Fujimori",
+        "Nacionalidad":"Japonesa"
+         
+    },
+    {
+        "nombre": "Pedro",
+        "Apellido": "Castillo",
+        "Nacionalidad":"Peruano"
+         
+    },
+    {
+        "nombre": "Bill",
+        "Apellido": "Gates",
+        "Nacionalidad":"Norteamericano"
+         
+    }
+]
